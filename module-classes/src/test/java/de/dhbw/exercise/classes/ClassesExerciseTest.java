@@ -3,6 +3,10 @@ package de.dhbw.exercise.classes;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static de.dhbw.commons.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+
 public class ClassesExerciseTest {
 
     @Test
@@ -14,11 +18,12 @@ public class ClassesExerciseTest {
              Teste, ob die Instanzen korrekt erzeugt wurden!
             """)
     public void exercise1() {
-        // given
-
-        // when
+        fernzug f = new fernzug();
+        regionalzug r = new regionalzug();
 
         // then
+        assertNotNull(f, "Fernzug sollte instanziiert sein");
+        assertNotNull(r, "Regionalzug sollte instanziiert sein");
     }
 
     @Test
@@ -28,11 +33,18 @@ public class ClassesExerciseTest {
             teste für die Instanz, welchen Wert dieses Feld einer Instanz hat!
             """)
     public void exercise2() {
-        // given
+            // given
+            fernzug meinZug = new fernzug();
 
-        // when
+            // when
+            String initialValue = meinZug.number;
 
-        // then
+            // then
+            // Bei Objektreferenzen (String) ist der Standardwert null
+            assertNull(initialValue, "Das Feld 'number' sollte initial null sein");
+
+            meinZug.number = "ICE 123";
+            assertEquals("ICE 123", meinZug.number);
     }
 
     @Test

@@ -4,8 +4,7 @@ import de.dhbw.solution.inheritance.Fernzug;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class InheritanceExerciseTest {
 
@@ -24,10 +23,16 @@ public class InheritanceExerciseTest {
     @DisplayName("Übung 3 Teil 2 (extended): Eine Klassen 'Fernzug' erbt von einer Klassen 'Zug'")
     public void exercise3_extended() {
         // given
+        // Zug zug = new Fernzug();
+        Fernzug zug = new Fernzug();
 
         // when
+        String number = zug.getNumber();
+        double maxSpeed = zug.getMaxSpeed();
 
         // then
+        assertNull(number);
+        assertEquals(289.0, maxSpeed);
     }
 
 }

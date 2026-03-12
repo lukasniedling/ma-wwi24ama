@@ -1,7 +1,10 @@
 package de.dhbw.exercise;
 
+import de.dhbw.exercise.visibility.person;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import static de.dhbw.commons.Assertions.assertEquals;
 
 public class VisibilityExerciseTest {
 
@@ -20,10 +23,16 @@ public class VisibilityExerciseTest {
         """)
     public void exercise1() {
         // given
+        person testPerson = new person();
+        String geplanterName = "Lukas";
+        int geplantesAlter = 19;
 
         // when
-
+        testPerson.setName(geplanterName);
+        testPerson.setAge(geplantesAlter);
         // then
+        assertEquals(geplanterName, testPerson.getName());
+        assertEquals(geplantesAlter, testPerson.getAge());
 
     }
 

@@ -1,7 +1,11 @@
 package de.dhbw.exercise;
 
+import de.dhbw.exercise.abstracts.Regionalzug;
+import de.dhbw.exercise.abstracts.Zug;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
+import static de.dhbw.commons.Assertions.assertEquals;
 
 public class InterfaceExerciseTest {
 
@@ -17,10 +21,13 @@ public class InterfaceExerciseTest {
     """)
     public void exercise1() {
         // given
-
+        Zug testzug = new Regionalzug();
+        String geplanteNummer = "12345";
         // when
-
+        testzug.setNumber(geplanteNummer);
         // then
+        assertEquals(geplanteNummer, testzug.getNumber());
+
 
     }
 
