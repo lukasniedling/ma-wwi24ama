@@ -37,7 +37,7 @@ Das folgende Modul dient einfach als *Übungs- oder auch als Experimentiermodul*
 == Tag 2 - Klassen & Instanzen, Vererbung, Typumwandlung von Klassen
 
 [subs=normal]
- [*Do., 26.02.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 2"#
+ [*Do., 26.02.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 2"#
 
 *Inhalt*:
 
@@ -56,7 +56,7 @@ include::{agendas}/course-day-2.agenda.txt[]
 == Tag 3 - Klassen & Sichtbarkeit, Abstraktionen, Interfaces
 
 [subs=normal]
- [*Do., 05.03.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 3"#
+ [*Do., 05.03.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 3"#
 
 *Inhalt*:
 
@@ -71,10 +71,10 @@ include::{agendas}/course-day-3.agenda.txt[]
 . {icon-module} link:../module-interfaces/docs/interfaces.adoc[module-interfaces]
 
 
-== Tag 4 - Operatoren, Kontrollstrukturen & Collections API
+== Tag 4 - Collections API, Kontrollstrukturen & Operatoren
 
 [subs=normal]
- [*Do., 12.03.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 4"#
+ [*Do., 12.03.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 4"#
 
 *Inhalt*:
 
@@ -85,15 +85,15 @@ include::{agendas}/course-day-4.agenda.txt[]
 
 *Zugehörige Module*:
 
-. {icon-module} link:../module-operators/docs/operators.adoc[module-operators]
-. {icon-module} link:../module-loops/docs/loops.adoc[module-loops]
 . {icon-module} link:../module-collections/docs/collections.adoc[module-collections]
+. {icon-module} link:../module-loops/docs/loops.adoc[module-loops]
+. {icon-module} link:../module-operators/docs/operators.adoc[module-operators]
 
 
-== Tag 5 - Assoziationen & Java Generics
+== Tag 5 - Überladen & Übersteuern, Assoziationen & Enums
 
 [subs=normal]
- [*Do., 19.03.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 5"#
+ [*Do., 19.03.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 5"#
 
 *Inhalt*:
 
@@ -104,14 +104,15 @@ include::{agendas}/course-day-5.agenda.txt[]
 
 *Zugehörige Module*:
 
+. {icon-module} link:../module-classes/docs/classes.adoc[module-classes] (Kap. 6)
 . {icon-module} link:../module-associations/docs/associations.adoc[module-associations]
-. {icon-module} link:../module-generics/docs/generics.adoc[module-generics (Einf.)]
+. {icon-module} link:../module-enums/docs/enums.adoc[module-enums]
 
 
 == Tag 6 - Java Generics, funktionale Programmierung
 
 [subs=normal]
- [*Do., 26.03.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 6"#
+ [*Do., 26.03.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 6"#
 
 *Inhalt*:
 
@@ -129,7 +130,7 @@ include::{agendas}/course-day-6.agenda.txt[]
 == Tag 7 - Ausnahmen, Fehlerbehandlung, statische Elemente & Enums
 
 [subs=normal]
- [*Do., 02.04.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 7"#
+ [*Do., 02.04.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 7"#
 
 *Inhalt*:
 
@@ -143,13 +144,13 @@ include::{agendas}/course-day-7.agenda.txt[]
 . {icon-module} link:../module-funcprogramming/docs/functional-programming.adoc[module-funcprogramming]
 . {icon-module} link:../module-exceptions/docs/exception-handling.adoc[module-exceptions]
 . {icon-module} link:../module-statics/docs/statics.adoc[module-statics]
-. {icon-module} link:../module-enums/docs/enums.adoc[module-enums]
+
 
 
 == Tag 8 - Referenzsemantik, Object-Vertrag & Records
 
 [subs=normal]
- [*Do., 09.04.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 8"#
+ [*Do., 09.04.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 8"#
 
 *Inhalt*:
 
@@ -169,7 +170,7 @@ include::{agendas}/course-day-8.agenda.txt[]
 == Tag 9 - Polymorphismus, KI in der Softwareentwicklung & Prüfungsvorbereitung
 
 [subs=normal]
- [*Do., 16.04.2026*, 09:15 - 12:15, 180min] [red]#"Course Day 9"#
+ [*Do., 16.04.2026*, 09:00 - 12:00, 180min] [red]#"Course Day 9"#
 
 *Inhalt*:
 
