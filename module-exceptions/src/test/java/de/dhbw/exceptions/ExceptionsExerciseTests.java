@@ -8,12 +8,13 @@ public class ExceptionsExerciseTests {
     @Test
     @DisplayName("""
         Übung 1: Exception werfen und fangen
-        1. Implementiere das Interface Executable mit einer Methode void execute(), dazu eine Klasse Task, die das
+        1. Implementiere ein Interface 'Executable' mit einer Methode 'void execute()', dazu eine Klasse 'Task', die das
            Interface implementiert
-        2. Implementiere dazu auch eine neue konkrete, eigene 'CheckedException', die von Exception abgeleitet werden
-           soll und von execute() geworfen werden kann.
-        3. Wirf diese neue Exception einfach mittels throws in der konkreten Methode execute() deiner konkreten Klasse.
-        4. Nutze diesen Unit-Test, erzeuge einen Task, rufe die Methode execute() auf und fange die geworfene Exception.
+        2. Implementiere dazu auch eine neue konkrete, eigene 'Exception' names 'CheckedException'. Diese Exception
+           soll von 'Exception' erben und von der Methode 'execute()' geworfen werden
+        3. Wirf dann diese neue Exception tatsächlich mittels 'throws' in der konkreten Methode execute() deiner Klasse
+        4. Nutze diesen Unit-Test, instanziiere einen Task, rufe dessen Methode execute() auf und fange die geworfene
+           Exception
     """)
     public void exercise1() {
         // given

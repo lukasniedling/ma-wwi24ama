@@ -123,7 +123,7 @@ include::{agendas}/course-day-6.agenda.txt[]
 
 *Zugehörige Module*:
 
-. {icon-module} link:../module-generics/docs/generics.adoc[module-generics] (Forts.)
+. {icon-module} link:../module-generics/docs/generics.adoc[module-generics]
 . {icon-module} link:../module-funcprogramming/docs/functional-programming.adoc[module-funcprogramming]
 
 
@@ -141,9 +141,9 @@ include::{agendas}/course-day-7.agenda.txt[]
 
 *Zugehörige Module*:
 
-. {icon-module} link:../module-funcprogramming/docs/functional-programming.adoc[module-funcprogramming]
 . {icon-module} link:../module-exceptions/docs/exception-handling.adoc[module-exceptions]
 . {icon-module} link:../module-statics/docs/statics.adoc[module-statics]
+. {icon-module} link:../exam-preparation/docs/exam-preparation.adoc[exam-preparation]
 
 
 
